@@ -1,0 +1,39 @@
+span{
+    color: #fff;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+li{
+    border: solid black 1px;
+    width: 80%;
+    margin-left: 10%;
+    height: 35px;
+    margin-top: 8px;
+    border-radius: 4px;
+    color: green;
+    list-style-type: none;
+}
+
+h4{
+    margin-left: 42%;
+    font-size: 22pt;
+    font-family: 'Roboto', sans-serif;
+}
+
+button.botao{
+    background-color: #333;
+    color: #fff;
+    width: 80px;
+}
+
+input {
+    background: rgba(0, 0, 0, 0.1);
+    border: 0;
+    border-radius:4px;
+    height: 44px;
+    padding: 0 15px;
+    color:#fff;
+    margin: 0 0 10px;
+    margin-left: 50%;
+}

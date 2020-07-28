@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+.main{
+    width: 25%;
+    height: 300px;
+    background-color: #f1f1f1;
+    margin-left: 37.5%;
+    margin-top: 2%;
+    border-radius: 8px;
+    display: grid;
+}
+
+h2{
+    margin-left: 42%;
+    margin-top: 5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* .MuiOutlinedInput-root {
+    margin-top: 40px;    
+  }
+
+  .MuiInputLabel-outlined {
+    
+    margin-top: 35px;
+  }
+  
+   */
+
+/* button{
+    margin-top: 10%;
+} */
+
+.link{
+    color: #333;
+    text-decoration: none;
+    margin-left: 26%;
+}
+
+.link:hover{
+    color: #cdcdcd;    
+}

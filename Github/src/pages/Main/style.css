@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+  background-image: url('../../img/img.jpg');
+  background-repeat-y: no-repeat;
+  background-size: 950px 100vh ;
+ 
+  
+}
+
+.header {
+    overflow: hidden;
+    background-color: #333;
+    padding: 10px 10px;
+  }
+  
+  .header a {
+    float: left;
+    color: #fff;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  .header span.logo {
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .header a:hover {
+    background-color: #262626;
+    color: white;
+  }
+  
+  .header a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+  
+  .header-right {
+    float: right;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    
+    .header-right {
+      float: none;
+    }
+  }
+
+  .form{
+      background-color: #cdcdcd;
+      width: 30%;
+      margin-top: 10px;
+      margin-left: 65%;  
+      border-radius: 8px;
+      height: 88vh;
+  }
+
+  button{
+    width: 80%;
+    height:50px;
+    background: green;
+    font-weight: bold;
+    color: #fff;
+    border: 0;
+    border-radius:4px;
+    font-size: 16px;
+    margin-left: 10%;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+
+
+
+
+.text{
+  position: absolute;
+  color: #f1f1f1;
+  font-family: sans-serif;
+  width: 40%;
+  margin-left: 10%;
+  margin-top: -490px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.text h3{
+  font-size: 50pt;
+}
+
+.text p{
+  font-size: 20pt;
+}
+
+.MuiOutlinedInput-root {
+  position: reltive;
+  border-radius: 4px;
+  margin-top: 10px;
+  max-width: 80%;
+  margin-left: 10%;
+  max-height: 50px;
+}
+
+.MuiInputLabel-outlined {
+  z-index: 1;
+  transform: translate(14px, 20px) scale(1);
+  pointer-events: none;
+  margin-left: 10%;
+  margin-top: 10px;
+}
+
+.MuiFormControl-root {
+  border: 0;
+  margin: 0;
+  display: inline-flex;
+  padding: 0;
+  position: relative;
+  min-width: 0;
+  flex-direction: column;
+  width: 100%;
+  vertical-align: top;
+}
+
+
+
+
+
+
